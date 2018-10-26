@@ -13,6 +13,8 @@
 		0F1B230C21834E370073DE90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1B230B21834E370073DE90 /* Assets.xcassets */; };
 		0F1B230F21834E370073DE90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1B230D21834E370073DE90 /* LaunchScreen.storyboard */; };
 		0F1B231A21834E370073DE90 /* UITestExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B231921834E370073DE90 /* UITestExampleUITests.swift */; };
+		0F1B232521834F810073DE90 /* UITestExampleIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B232421834F810073DE90 /* UITestExampleIdentifiers.swift */; };
+		0F1B232621834FBC0073DE90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B230621834E360073DE90 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		0F1B231521834E370073DE90 /* UITestExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1B231921834E370073DE90 /* UITestExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestExampleUITests.swift; sourceTree = "<group>"; };
 		0F1B231B21834E370073DE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1B232421834F810073DE90 /* UITestExampleIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestExampleIdentifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,7 @@
 			children = (
 				0F1B231921834E370073DE90 /* UITestExampleUITests.swift */,
 				0F1B231B21834E370073DE90 /* Info.plist */,
+				0F1B232421834F810073DE90 /* UITestExampleIdentifiers.swift */,
 			);
 			path = UITestExampleUITests;
 			sourceTree = "<group>";
@@ -206,7 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1B232621834FBC0073DE90 /* ViewController.swift in Sources */,
 				0F1B231A21834E370073DE90 /* UITestExampleUITests.swift in Sources */,
+				0F1B232521834F810073DE90 /* UITestExampleIdentifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
